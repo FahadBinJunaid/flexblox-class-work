@@ -1,0 +1,106 @@
+body {
+    background-color: rgba(112, 112, 91, 0.22);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    border-radius: 30px;
+    height: 10px;
+    background-color: rgba(251, 250, 250, 0.601);
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+}
+nav .Logo {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+    transition: 0.1s ease; color: 0.1s ease;
+}
+nav .Logo:hover {
+    cursor: pointer;
+    color: rgb(236, 170, 47);
+}
+
+nav li {
+    transition: 0.1s ease; color: 0.1s ease;
+}
+nav li:hover {
+    cursor: pointer;
+    color: rgb(236, 170, 47);
+}
+.contanier {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box {
+   
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.box h1 {
+    font-size: 34px;
+    line-height: 1.2;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 380px;
+}
+.box p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 380px;
+    padding: 20px;
+    margin-top: 100px;
+}
+.research {
+    text-decoration: underline;
+    transition: 0.1s ease; color: 0.1s ease;
+}
+.research:hover {
+    cursor: pointer;
+    color: rgb(236, 170, 47);
+}
+.products {
+    text-decoration: underline;
+    transition: 0.1s ease; color: 0.1s ease;
+}
+.products:hover {
+    cursor: pointer;
+    color: rgb(236, 170, 47);
+}
+
+.contanier2 {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.box2 {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+.box2 img {
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
