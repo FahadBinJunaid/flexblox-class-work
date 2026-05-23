@@ -1,0 +1,54 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+nav .Logo {
+    color: rgb(222, 115, 86);
+    transition: 0.3s ease;
+    font-size: 30px;
+}
+nav .Logo:hover {
+    color: wheat;
+    transform: scale(1.06);
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+nav li {
+    transition: 0.3s ease;
+    font-size: 18px;
+}
+nav li:hover {
+    color: rgb(222, 115, 86);
+    transform: scale(1.06);
+    cursor: pointer;
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    align-items: flex-end;
+    margin-right: 300px;
+    margin-left: 300px;
+    gap: 20px;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    padding: 20px;
+}
+main p {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
